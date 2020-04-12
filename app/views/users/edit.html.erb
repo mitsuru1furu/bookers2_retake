@@ -1,0 +1,6 @@
+<%= form_for(@user) do |f|%>
+<%= f.text_field :name%>
+<%= f.attachment_field :profile_image %>
+<%= f.text_area :opinion%>
+<%= f.submit %>
+<% end%>
